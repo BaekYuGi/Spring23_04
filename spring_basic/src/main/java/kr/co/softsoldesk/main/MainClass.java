@@ -2,7 +2,9 @@ package kr.co.softsoldesk.main;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+
 import kr.co.softsoldesk.beans.Hello;
+import kr.co.softsoldesk.beans.HelloWorldKR;
 
 public class MainClass {
 
@@ -17,4 +19,7 @@ public class MainClass {
 	public static void callhello(Hello hello) {
 		hello.say();
 	}
+	
+	
+	
 }
